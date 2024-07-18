@@ -1,0 +1,317 @@
+.section-1 {
+    background: url(Images/bg.gif) center;
+    background-size: cover;
+    height: 700px;
+}
+
+.section-1 a{
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.section-1 a:hover{
+    color: white;
+}
+
+
+.pro-pic img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.section-1 h3 {
+    font-size: 35px;
+    color: azure;
+}
+
+.line {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(117, 117, 117);
+}
+
+.part-1 img {
+    width: 50%;
+    height: 500px;
+}
+
+.part-4 {
+    order: 1;
+}
+
+.part-5 {
+    order: 2;
+    width: 80%;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.part-6 {
+    height: 500px;
+}
+
+.part-6 img {
+    height: 400px;
+    padding-top: 30px;
+}
+
+.part-8 {
+    order: 1;
+}
+
+.part-9 {
+    order: 2;
+    height: 500px;
+}
+
+.part-9 img {
+    margin-top: 50px;
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section-1 {
+        height: 550px;
+    }
+
+    .pro-pic img {
+        width: 50%;
+    }
+
+    .part-1 img {
+        width: 40%;
+        height: 300px;
+    }
+
+    .part-2 {
+        text-align: center;
+    }
+
+    .part-4 {
+        order: 2;
+        text-align: center;
+    }
+
+    .part-5 {
+        order: 1;
+        height: 300px;
+        padding-top: 10px;
+    }
+
+    .part-5 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .part-6 {
+        height: 300px;
+    }
+
+    .part-6 img {
+        height: 300px;
+        padding-top: 10px;
+    }
+
+    .part-7 {
+        text-align: center;
+    }
+
+    .part-8 {
+        order: 2;
+        text-align: center;
+    }
+
+    .part-9 {
+        order: 1;
+        height: 300px;
+    }
+}
+
+
+.bt {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: rgb(23, 98, 98);
+    border-radius: 30px;
+    color: white;
+}
+
+.bt:hover {
+    background-color: red;
+}
+
+.BT1 {
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 85);
+    color: rgba(255, 255, 255, 0.734);
+}
+
+.BT1:hover {
+    background-color: blue;
+    transition: .5s;
+}
+
+.dis {
+    color: rgb(179, 179, 179);
+}
+
+.dis:hover {
+    color: blue;
+    transition: 1s;
+}
+
+
+
+/* about-section */
+
+
+.about img {
+    width: 70%;
+    height: auto;
+    opacity: .9;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: .7;
+}
+
+@media screen and (max-width: 992px) {
+    .about img {
+        width: 30%;
+        height: auto;
+    }
+}
+
+.about li {
+    line-height: 50px;
+    list-style: square;
+    color: rgb(179, 214, 202);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* service - section */
+
+
+
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crd {
+    width: 350px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.crd img {
+    width: 200px;
+    height: 200px;
+    opacity: .7;
+}
+
+.crd:hover {
+    transform: scale(1.1);
+    border: solid 1px rgba(255, 255, 255, 0.575);
+    transition: 1s;
+}
+
+.crd p {
+    color: rgb(166, 171, 175);
+}
+
+
+/* resume-section */
+
+.resume-section img {
+    border-radius: 30%;
+    width: 150px;
+}
+
+.resume-section ul {
+    line-height: 40px;
+    font-size: large;
+    list-style: none;
+    color: rgb(140, 226, 197);
+    border-left: dotted 5px rgb(105, 105, 105);
+}
+
+.resume-section p {
+    color: rgb(152, 173, 166);
+}
+
+/* Gallery */
+
+.picture-section img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.picture-section img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: .5;
+}
+
+/* Contact */
+
+
+.items i {
+    font-size: 35px;
+    padding: 10px;
+    color: aquamarine;
+}
+
+.items h4 p {
+    color: rgb(58, 57, 57);
+}
+
+.contact-form input {
+    background-color: rgb(200, 238, 202);
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    background-color:  rgb(200, 238, 202);
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form input:hover{
+    background-color: rgb(97, 204, 151);
+}
+
+.contact-form textarea:hover{
+    background-color:  rgb(97, 204, 151);
+}
+
+.contact-form button{
+    width: 300px;
+    margin: 20px;
+    height: 45px;
+    background-color: rgb(2, 116, 78);
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form button:hover{
+    background-color: rgb(69, 177, 141);
+}
